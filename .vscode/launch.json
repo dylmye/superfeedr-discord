@@ -1,0 +1,41 @@
+{
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "aws-sam",
+      "request": "direct-invoke",
+      "name": "dsc-super-geenelly:lambda_function.lambda_handler (python3.8)",
+      "invokeTarget": {
+        "target": "code",
+        "projectRoot": "${workspaceFolder}/dsc-super-geenelly",
+        "lambdaHandler": "lambda_function.lambda_handler"
+      },
+      "lambda": {
+        "runtime": "python3.8",
+        "payload": {},
+        "environmentVariables": {}
+      }
+    },
+    {
+      "type": "aws-sam",
+      "request": "direct-invoke",
+      "name": "superfeedr-discord:lambda_function.lambda_handler (python3.8)",
+      "invokeTarget": {
+        "target": "code",
+        "projectRoot": "${workspaceFolder}/",
+        "lambdaHandler": "lambda_function.lambda_handler"
+      },
+      "lambda": {
+        "runtime": "python3.8",
+        "payload": {},
+        "environmentVariables": {}
+      }
+    }
+  ]
+}

@@ -1,1 +1,16 @@
 env.py
+# deps
+bin
+beautifulsoup4*
+bs4*
+certifi*
+charset_normalizer*
+idna*
+lxml*
+requests*
+soupsieve*
+urllib3*
+
+# temp
+superfeedr-discord.zip
+__pycache__
