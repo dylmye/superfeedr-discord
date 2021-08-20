@@ -1,5 +1,5 @@
 # Superfeedr for Discord Webhook
-## A rudimentary AWS lambda function for notifying your discord server when you're live on Twitch
+## A rudimentary AWS lambda function for notifying your discord server when your Superfeedr feed updates
 
 [![DeepSource](https://deepsource.io/gh/dylmye/superfeedr-discord.svg/?label=active+issues)](https://deepsource.io/gh/dylmye/superfeedr-discord/?ref=repository-badge) [![CodeQL](https://github.com/dylmye/superfeedr-discord/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/dylmye/superfeedr-discord/actions/workflows/codeql-analysis.yml)
 
